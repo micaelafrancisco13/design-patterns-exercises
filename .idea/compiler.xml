@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01-memento-pattern" />
+        <module name="02-state-pattern" />
       </profile>
     </annotationProcessing>
   </component>

@@ -7,10 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="02-state-pattern" />
         <module name="01-memento-pattern" />
         <module name="03-iterator-pattern" />
-        <module name="02-state-pattern" />
+        <module name="04-strategy-pattern" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

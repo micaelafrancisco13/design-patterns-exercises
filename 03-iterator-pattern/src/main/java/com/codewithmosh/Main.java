@@ -1,13 +1,11 @@
 package com.codewithmosh;
 
-import lombok.var;
-
 public class Main {
     public static void main(String[] args) {
         var productCollection = new ProductCollection();
-        productCollection.add(new Product(1,"Apple 1"));
-        productCollection.add(new Product(2,"Apple 2"));
-        productCollection.add(new Product(3,"Apple 3"));
+        productCollection.add(new Product(1, "Apple 1"));
+        productCollection.add(new Product(2, "Apple 2"));
+        productCollection.add(new Product(3, "Apple 3"));
 
         var iterator1 = productCollection.createIterator();
         while (iterator1.hasNext()) {

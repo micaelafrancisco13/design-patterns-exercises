@@ -19,8 +19,8 @@ public class ProductCollection {
     }
 
     private static class ListIterator implements Iterator<Product> {
-        private int index = 0;
         private final ProductCollection collection;
+        private int index = 0;
 
         private ListIterator(ProductCollection products) {
             this.collection = products;

@@ -12,9 +12,11 @@
         <module name="01-memento-pattern" />
         <module name="03-iterator-pattern" />
         <module name="04-strategy-pattern" />
+        <module name="command-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="own-implementation" target="21" />
       <module name="untitled" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +27,8 @@
       <module name="03-iterator-pattern" options="-parameters" />
       <module name="04-strategy-pattern" options="-parameters" />
       <module name="05-template-method-pattern" options="-parameters" />
+      <module name="command-pattern" options="-parameters" />
+      <module name="own-implementation" options="" />
     </option>
   </component>
 </project>

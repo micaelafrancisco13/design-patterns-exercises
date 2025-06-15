@@ -12,9 +12,11 @@ public class Main {
 
         commandManager.executeCommand(new BoldCommand(richTextEditor, DocumentProperty.TITLE));
         commandManager.executeCommand(new BoldCommand(richTextEditor, DocumentProperty.CONTENT));
+        commandManager.executeCommand(new BoldCommand(richTextEditor, DocumentProperty.BODY));
 
         System.out.println("After bolding: " + richTextEditor.getDocument());
 
+        commandManager.undoLastCommand();
         commandManager.undoLastCommand();
 
         System.out.println("After unbolding: " + richTextEditor.getDocument());

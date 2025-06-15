@@ -27,6 +27,7 @@
         <module>04-strategy-pattern</module>
         <module>05-template-method-pattern</module>
         <module>own-implementations/command-pattern</module>
+        <module>06-command-pattern</module>
     </modules>
 
     <dependencyManagement>

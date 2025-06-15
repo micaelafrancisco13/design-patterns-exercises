@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="05-template-method-pattern" />
         <module name="02-state-pattern" />
+        <module name="06-command-pattern" />
         <module name="01-memento-pattern" />
-        <module name="03-iterator-pattern" />
         <module name="04-strategy-pattern" />
+        <module name="05-template-method-pattern" />
+        <module name="03-iterator-pattern" />
         <module name="command-pattern" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="03-iterator-pattern" options="-parameters" />
       <module name="04-strategy-pattern" options="-parameters" />
       <module name="05-template-method-pattern" options="-parameters" />
+      <module name="06-command-pattern" options="-parameters" />
       <module name="command-pattern" options="-parameters" />
       <module name="own-implementation" options="" />
     </option>

@@ -30,6 +30,7 @@
         <module>06-command-pattern</module>
         <module>test</module>
         <module>07-observer-pattern</module>
+        <module>08-mediator-pattern</module>
     </modules>
 
     <dependencyManagement>

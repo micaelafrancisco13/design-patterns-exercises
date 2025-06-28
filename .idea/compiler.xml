@@ -16,6 +16,7 @@
         <module name="05-template-method-pattern" />
         <module name="03-iterator-pattern" />
         <module name="command-pattern" />
+        <module name="08-mediator-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="05-template-method-pattern" options="-parameters" />
       <module name="06-command-pattern" options="-parameters" />
       <module name="07-observer-pattern" options="-parameters" />
+      <module name="08-mediator-pattern" options="-parameters" />
       <module name="command-pattern" options="-parameters" />
       <module name="own-implementation" options="" />
       <module name="test" options="-parameters" />

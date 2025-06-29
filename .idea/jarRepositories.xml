@@ -32,6 +32,11 @@
       <option name="url" value="http://repo.rdswiss.ch/artifactory/repo" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="rdswiss" />
+      <option name="name" value="rdswiss" />
+      <option name="url" value="http://repo.rdswiss.ch/artifactory/repo" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="http://repo.rdswiss.ch/artifactory/repo" />

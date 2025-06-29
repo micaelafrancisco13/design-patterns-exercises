@@ -11,7 +11,7 @@
 
     <artifactId>own-implementations</artifactId>
     <packaging>pom</packaging>
-    
+
     <modules>
         <module>command-pattern</module>
     </modules>

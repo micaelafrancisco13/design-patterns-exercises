@@ -26,12 +26,12 @@
         <module>03-iterator-pattern</module>
         <module>04-strategy-pattern</module>
         <module>05-template-method-pattern</module>
-        <module>own-implementations/command-pattern</module>
         <module>06-command-pattern</module>
         <module>test</module>
         <module>07-observer-pattern</module>
         <module>08-mediator-pattern</module>
         <module>09-chain-of-responsibility-pattern</module>
+        <module>own-implementations</module>
     </modules>
 
     <dependencyManagement>

@@ -15,8 +15,8 @@
         <module name="04-strategy-pattern" />
         <module name="05-template-method-pattern" />
         <module name="09-chain-of-responsibility-pattern" />
+        <module name="own-implementations" />
         <module name="03-iterator-pattern" />
-        <module name="command-pattern" />
         <module name="08-mediator-pattern" />
       </profile>
     </annotationProcessing>
@@ -38,6 +38,7 @@
       <module name="09-chain-of-responsibility-pattern" options="-parameters" />
       <module name="command-pattern" options="-parameters" />
       <module name="own-implementation" options="" />
+      <module name="own-implementations" options="-parameters" />
       <module name="test" options="-parameters" />
     </option>
   </component>

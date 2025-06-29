@@ -5,22 +5,22 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>design-patterns-exercises</artifactId>
+        <artifactId>own-implementations</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>own-implementations</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>command-pattern</module>
-        <module>chain-of-responsibility-pattern</module>
-    </modules>
+    <artifactId>chain-of-responsibility-pattern</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

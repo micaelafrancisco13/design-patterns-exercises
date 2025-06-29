@@ -15,9 +15,10 @@
         <module name="04-strategy-pattern" />
         <module name="05-template-method-pattern" />
         <module name="09-chain-of-responsibility-pattern" />
-        <module name="own-implementations" />
         <module name="03-iterator-pattern" />
+        <module name="chain-of-responsibility-pattern" />
         <module name="08-mediator-pattern" />
+        <module name="command-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,9 +37,10 @@
       <module name="07-observer-pattern" options="-parameters" />
       <module name="08-mediator-pattern" options="-parameters" />
       <module name="09-chain-of-responsibility-pattern" options="-parameters" />
+      <module name="chain-of-responsibility-pattern" options="-parameters" />
       <module name="command-pattern" options="-parameters" />
       <module name="own-implementation" options="" />
-      <module name="own-implementations" options="-parameters" />
+      <module name="own-implementations" options="" />
       <module name="test" options="-parameters" />
     </option>
   </component>
